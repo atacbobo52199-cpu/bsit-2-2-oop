@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class ToolBox {
 
-    // Name: Geo Octaviano
-
+    // Name: Arthur Tacbobo
     static class Box {
         int value;
 
