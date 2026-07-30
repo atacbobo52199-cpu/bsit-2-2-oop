@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/lab-activity-3.iml" filepath="$PROJECT_DIR$/lab-activity-3.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/BSIT 2-2 tacbobo.iml" filepath="$PROJECT_DIR$/BSIT 2-2 tacbobo.iml" />
+>>>>>>> d3b618f8cf61afded435cb7b787945b31ccb24b5
     </modules>
   </component>
 </project>
