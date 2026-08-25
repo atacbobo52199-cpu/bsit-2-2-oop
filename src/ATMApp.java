@@ -1,5 +1,3 @@
-package atm;
-
 import java.util.Scanner;
 
 public class ATMApp {
@@ -12,7 +10,7 @@ public class ATMApp {
 
         Account account = new SavingsAccount(
                 "SA-1001",
-                "Juan Dela Cruz",
+                "Arthur Tacbobo",
                 5000.0,
                 0.02
         );
