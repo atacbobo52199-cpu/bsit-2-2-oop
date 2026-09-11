@@ -154,7 +154,7 @@ public class Main {
 
     private static void seedSampleUsers() {
 
-        manager.add(new Admin(nextId, "Razz", "razz@liceo.edu.ph"));
+        manager.add(new Admin(nextId, "Rivera", "Rivera@liceo.edu.ph"));
         nextId++;
 
         manager.add(new Teacher(nextId, "Mogawan", "Mogawan@liceo.edu.ph", "CIT"));
