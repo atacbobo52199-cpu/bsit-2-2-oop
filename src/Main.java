@@ -157,10 +157,10 @@ public class Main {
         manager.add(new Admin(nextId, "Razz", "razz@liceo.edu.ph"));
         nextId++;
 
-        manager.add(new Teacher(nextId, "Maria", "maria@liceo.edu.ph", "CIT"));
+        manager.add(new Teacher(nextId, "Mogawan", "Mogawan@liceo.edu.ph", "CIT"));
         nextId++;
 
-        manager.add(new Student(nextId, "Ana", "ana@liceo.edu.ph", "BSIT"));
+        manager.add(new Student(nextId, "Lopez", "Lopez@liceo.edu.ph", "BSIT"));
         nextId++;
 
         System.out.println();
