@@ -1,0 +1,111 @@
+.root-pane {
+    -fx-background-color: #f7f4ee;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ---------- text styles ---------- */
+
+.eyebrow-label {
+    -fx-text-fill: #c9a227;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.eyebrow-label-dark {
+    -fx-text-fill: #d9b25c;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.title-label {
+    -fx-text-fill: #7a1f1f;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+}
+
+.field-label {
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* ---------- inputs ---------- */
+
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #2196c9;
+}
+
+/* ---------- buttons ---------- */
+
+.primary-button {
+    -fx-background-color: #7a1f1f;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12 0 12 0;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #611818;
+}
+
+/* ---------- login message ---------- */
+
+.message-label {
+    -fx-text-fill: #b23b3b;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* ---------- profile header ---------- */
+
+.profile-header {
+    -fx-background-color: #7a1f1f;
+}
+
+.profile-name {
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.initials-circle {
+    -fx-background-color: #d9b25c;
+    -fx-text-fill: #611818;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-min-width: 70;
+    -fx-min-height: 70;
+    -fx-max-width: 70;
+    -fx-max-height: 70;
+    -fx-background-radius: 35;
+}
+
+/* ---------- profile details grid ---------- */
+
+.details-grid {
+    -fx-background-color: white;
+}
+
+.detail-key {
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.detail-value {
+    -fx-text-fill: #333333;
+    -fx-font-size: 13px;
+}
